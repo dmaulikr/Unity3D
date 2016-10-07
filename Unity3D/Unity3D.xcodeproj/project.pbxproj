@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F9430181DA7ECF100A66CED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9430171DA7ECF100A66CED /* main.m */; };
+		8F94301B1DA7ECF100A66CED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F94301A1DA7ECF100A66CED /* AppDelegate.m */; };
+		8F94301E1DA7ECF100A66CED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F94301D1DA7ECF100A66CED /* ViewController.m */; };
+		8F9430211DA7ECF100A66CED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F94301F1DA7ECF100A66CED /* Main.storyboard */; };
+		8F9430231DA7ECF100A66CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9430221DA7ECF100A66CED /* Assets.xcassets */; };
+		8F9430261DA7ECF100A66CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9430241DA7ECF100A66CED /* LaunchScreen.storyboard */; };
+		8F9430311DA7ECF200A66CED /* Unity3DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9430301DA7ECF200A66CED /* Unity3DTests.m */; };
+		8F94303C1DA7ECF200A66CED /* Unity3DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F94303B1DA7ECF200A66CED /* Unity3DUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F94302D1DA7ECF200A66CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F94300B1DA7ECF100A66CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9430121DA7ECF100A66CED;
+			remoteInfo = Unity3D;
+		};
+		8F9430381DA7ECF200A66CED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F94300B1DA7ECF100A66CED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F9430121DA7ECF100A66CED;
+			remoteInfo = Unity3D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F9430131DA7ECF100A66CED /* Unity3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unity3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9430171DA7ECF100A66CED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F9430191DA7ECF100A66CED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F94301A1DA7ECF100A66CED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F94301C1DA7ECF100A66CED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F94301D1DA7ECF100A66CED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F9430201DA7ECF100A66CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F9430221DA7ECF100A66CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F9430251DA7ECF100A66CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F9430271DA7ECF100A66CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F94302C1DA7ECF200A66CED /* Unity3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unity3DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9430301DA7ECF200A66CED /* Unity3DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity3DTests.m; sourceTree = "<group>"; };
+		8F9430321DA7ECF200A66CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9430371DA7ECF200A66CED /* Unity3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unity3DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F94303B1DA7ECF200A66CED /* Unity3DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity3DUITests.m; sourceTree = "<group>"; };
+		8F94303D1DA7ECF200A66CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F9430101DA7ECF100A66CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9430291DA7ECF200A66CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9430341DA7ECF200A66CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F94300A1DA7ECF100A66CED = {
+			isa = PBXGroup;
+			children = (
+				8F9430151DA7ECF100A66CED /* Unity3D */,
+				8F94302F1DA7ECF200A66CED /* Unity3DTests */,
+				8F94303A1DA7ECF200A66CED /* Unity3DUITests */,
+				8F9430141DA7ECF100A66CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F9430141DA7ECF100A66CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9430131DA7ECF100A66CED /* Unity3D.app */,
+				8F94302C1DA7ECF200A66CED /* Unity3DTests.xctest */,
+				8F9430371DA7ECF200A66CED /* Unity3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F9430151DA7ECF100A66CED /* Unity3D */ = {
+			isa = PBXGroup;
+			children = (
+				8F9430191DA7ECF100A66CED /* AppDelegate.h */,
+				8F94301A1DA7ECF100A66CED /* AppDelegate.m */,
+				8F94301C1DA7ECF100A66CED /* ViewController.h */,
+				8F94301D1DA7ECF100A66CED /* ViewController.m */,
+				8F94301F1DA7ECF100A66CED /* Main.storyboard */,
+				8F9430221DA7ECF100A66CED /* Assets.xcassets */,
+				8F9430241DA7ECF100A66CED /* LaunchScreen.storyboard */,
+				8F9430271DA7ECF100A66CED /* Info.plist */,
+				8F9430161DA7ECF100A66CED /* Supporting Files */,
+			);
+			path = Unity3D;
+			sourceTree = "<group>";
+		};
+		8F9430161DA7ECF100A66CED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F9430171DA7ECF100A66CED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F94302F1DA7ECF200A66CED /* Unity3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F9430301DA7ECF200A66CED /* Unity3DTests.m */,
+				8F9430321DA7ECF200A66CED /* Info.plist */,
+			);
+			path = Unity3DTests;
+			sourceTree = "<group>";
+		};
+		8F94303A1DA7ECF200A66CED /* Unity3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F94303B1DA7ECF200A66CED /* Unity3DUITests.m */,
+				8F94303D1DA7ECF200A66CED /* Info.plist */,
+			);
+			path = Unity3DUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F9430121DA7ECF100A66CED /* Unity3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9430401DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3D" */;
+			buildPhases = (
+				8F94300F1DA7ECF100A66CED /* Sources */,
+				8F9430101DA7ECF100A66CED /* Frameworks */,
+				8F9430111DA7ECF100A66CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Unity3D;
+			productName = Unity3D;
+			productReference = 8F9430131DA7ECF100A66CED /* Unity3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F94302B1DA7ECF200A66CED /* Unity3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9430431DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3DTests" */;
+			buildPhases = (
+				8F9430281DA7ECF200A66CED /* Sources */,
+				8F9430291DA7ECF200A66CED /* Frameworks */,
+				8F94302A1DA7ECF200A66CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F94302E1DA7ECF200A66CED /* PBXTargetDependency */,
+			);
+			name = Unity3DTests;
+			productName = Unity3DTests;
+			productReference = 8F94302C1DA7ECF200A66CED /* Unity3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F9430361DA7ECF200A66CED /* Unity3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F9430461DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3DUITests" */;
+			buildPhases = (
+				8F9430331DA7ECF200A66CED /* Sources */,
+				8F9430341DA7ECF200A66CED /* Frameworks */,
+				8F9430351DA7ECF200A66CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9430391DA7ECF200A66CED /* PBXTargetDependency */,
+			);
+			name = Unity3DUITests;
+			productName = Unity3DUITests;
+			productReference = 8F9430371DA7ECF200A66CED /* Unity3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F94300B1DA7ECF100A66CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李建昭";
+				TargetAttributes = {
+					8F9430121DA7ECF100A66CED = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8F94302B1DA7ECF200A66CED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8F9430121DA7ECF100A66CED;
+					};
+					8F9430361DA7ECF200A66CED = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8F9430121DA7ECF100A66CED;
+					};
+				};
+			};
+			buildConfigurationList = 8F94300E1DA7ECF100A66CED /* Build configuration list for PBXProject "Unity3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F94300A1DA7ECF100A66CED;
+			productRefGroup = 8F9430141DA7ECF100A66CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F9430121DA7ECF100A66CED /* Unity3D */,
+				8F94302B1DA7ECF200A66CED /* Unity3DTests */,
+				8F9430361DA7ECF200A66CED /* Unity3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F9430111DA7ECF100A66CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9430261DA7ECF100A66CED /* LaunchScreen.storyboard in Resources */,
+				8F9430231DA7ECF100A66CED /* Assets.xcassets in Resources */,
+				8F9430211DA7ECF100A66CED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F94302A1DA7ECF200A66CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9430351DA7ECF200A66CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F94300F1DA7ECF100A66CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F94301E1DA7ECF100A66CED /* ViewController.m in Sources */,
+				8F94301B1DA7ECF100A66CED /* AppDelegate.m in Sources */,
+				8F9430181DA7ECF100A66CED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9430281DA7ECF200A66CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9430311DA7ECF200A66CED /* Unity3DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F9430331DA7ECF200A66CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F94303C1DA7ECF200A66CED /* Unity3DUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F94302E1DA7ECF200A66CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9430121DA7ECF100A66CED /* Unity3D */;
+			targetProxy = 8F94302D1DA7ECF200A66CED /* PBXContainerItemProxy */;
+		};
+		8F9430391DA7ECF200A66CED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F9430121DA7ECF100A66CED /* Unity3D */;
+			targetProxy = 8F9430381DA7ECF200A66CED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F94301F1DA7ECF100A66CED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9430201DA7ECF100A66CED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F9430241DA7ECF100A66CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F9430251DA7ECF100A66CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F94303E1DA7ECF200A66CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F94303F1DA7ECF200A66CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F9430411DA7ECF200A66CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Unity3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F9430421DA7ECF200A66CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Unity3D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F9430441DA7ECF200A66CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Unity3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity3D.app/Unity3D";
+			};
+			name = Debug;
+		};
+		8F9430451DA7ECF200A66CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Unity3DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Unity3D.app/Unity3D";
+			};
+			name = Release;
+		};
+		8F9430471DA7ECF200A66CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Unity3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Unity3D;
+			};
+			name = Debug;
+		};
+		8F9430481DA7ECF200A66CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Unity3DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jianzhao.Unity3DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Unity3D;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F94300E1DA7ECF100A66CED /* Build configuration list for PBXProject "Unity3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F94303E1DA7ECF200A66CED /* Debug */,
+				8F94303F1DA7ECF200A66CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F9430401DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9430411DA7ECF200A66CED /* Debug */,
+				8F9430421DA7ECF200A66CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F9430431DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9430441DA7ECF200A66CED /* Debug */,
+				8F9430451DA7ECF200A66CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F9430461DA7ECF200A66CED /* Build configuration list for PBXNativeTarget "Unity3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F9430471DA7ECF200A66CED /* Debug */,
+				8F9430481DA7ECF200A66CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F94300B1DA7ECF100A66CED /* Project object */;
+}
